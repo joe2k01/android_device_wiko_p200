@@ -4,3 +4,4 @@
 /vendor          ext4              /dev/block/platform/bootdevice/by-name/vendor
 /data            ext4              /dev/block/platform/bootdevice/by-name/userdata      flags=encryptable=/dev/block/platform/bootdevice/by-name/metadata
 /cache           ext4              /dev/block/platform/bootdevice/by-name/cache
+/usb-otg         vfat              /dev/block/sda1                                      flags=removable;storage;display=USB-OTG
