@@ -2,6 +2,6 @@
 /recovery        emmc              /dev/block/platform/bootdevice/by-name/recovery      flags=display="recovery";backup=1
 /system          ext4              /dev/block/platform/bootdevice/by-name/system
 /vendor          ext4              /dev/block/platform/bootdevice/by-name/vendor
-/data            ext4              /dev/block/platform/bootdevice/by-name/userdata      flags=encryptable=/dev/block/platform/bootdevice/by-name/metadata
+/data            ext4              /dev/block/platform/bootdevice/by-name/userdata      flags=length=-16384;encryptable=/dev/block/platform/bootdevice/by-name/metadata
 /cache           ext4              /dev/block/platform/bootdevice/by-name/cache
 /usb-otg         vfat              /dev/block/sda1                                      flags=removable;storage;display=USB-OTG
